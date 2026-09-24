@@ -34,10 +34,136 @@ Tel: 8435829057`;if(t.includes("precio")||t.includes("tarifa")||t.includes("cuan
 • 26x26x24 $340
 • 30x26x24 $375
 • 34x26x28 $400
-Tarda ~6 semanas. ¡Consolidación y fotos gratis!`;if(t.includes("tiempo")||t.includes("cuanto tarda")||t.includes("demora")||t.includes("entrega")||t.includes("tarda")||t.includes("cuando llega"))return`✈️ Tiempos de entrega:
+Tarda ~6 semanas. ¡Consolidación y fotos gratis!`
+  ;if(t.includes("tiempo")||t.includes("cuanto tarda")||t.includes("demora")||t.includes("entrega")||t.includes("tarda")||t.includes("cuando llega"))return`✈️ Tiempos de entrega:
 
 • Aéreo: 5-7 días hábiles hasta El Salvador, Honduras y Guatemala. Vuelo semanal los miércoles desde Myrtle Beach.
-• Marítimo: 6 semanas aprox.
+• Marítimo: 6 semanas aprox. v("section",{className:"mt-12",children:[
+  d("h2",{className:"text- font-black",children:"📦 Marítimo TODO INCLUIDO desde $290"}),
+  d("p",{className:"text- opacity-60 mt-1",children:"IMPUESTOS, DESADUANAJE Y ENTREGA PUERTA A PUERTA EN EL SALVADOR • Consolidación y fotos gratis • Tarda ~6 semanas"}),
+  v("div",{className:"grid grid-cols-2 md:grid-cols-4 gap-3 mt-4",children:[
+    v("div",{className:"bg-white rounded- border border-black/10 p-4",children:[
+      d("div",{className:"text- font-bold opacity-50",children:"PEQUEÑA"}),
+      d("div",{className:"font-black text- mt-1",children:"20x20x28"}),
+      d("div",{className:"font-black text- mt-2",children:"$290"}),
+      d("div",{className:"text- opacity-60 mt-1",children:"TODO INCLUIDO"})
+    ]}),
+    v("div",{className:"bg-white rounded- border border-black/10 p-4",children:[
+      d("div",{className:"text- font-bold opacity-50",children:"MEDIANA"}),
+      d("div",{className:"font-black text- mt-1",children:"26x26x24"}),
+      d("div",{className:"font-black text- mt-2",children:"$340"}),
+      d("div",{className:"text- opacity-60 mt-1",children:"TODO INCLUIDO"})
+    ]}),
+    v("div",{className:"bg-white rounded- border border-black/10 p-4",children:[
+      d("div",{className:"text- font-bold opacity-50",children:"GRANDE"}),
+      d("div",{className:"font-black text- mt-1",children:"30x26x24"}),
+      d("div",{className:"font-black text- mt-2",children:"$375"}),
+      d("div",{className:"text- opacity-60 mt-1",children:"TODO INCLUIDO"})
+    ]}),
+    v("div",{className:"bg-white rounded- border border-black/10 p-4",children:[
+      d("div",{className:"text- font-bold opacity-50",children:"EXTRA GRANDE"}),
+      d("div",{className:"font-black text- mt-1",children:"34x26x28"}),
+      d("div",{className:"font-black text- mt-2",children:"$400"}),
+      d("div",{className:"text- opacity-60 mt-1",children:"TODO INCLUIDO"})
+    ]})
+  ]})
+]}),
+
+// CODIGO V1 - TIENDA ASISTIDA TARSIS EXPRESS
+// Pega esto DENTRO de tu index.html, justo después de la sección de PRECIOS (después de las 4 cajas $290/$340/$375/$400)
+// Busca donde dice "TODO INCLUIDO" y pega esto justo después del cierre de esa sección
+
+// === INICIO CODIGO TIENDA ===
+v("section",{className:"mt-16",children:[
+  d("div",{className:"flex items-center justify-between mb-6",children:[
+    v("div",{children:[
+      d("h2",{className:"text-[28px] font-black leading-none",children:"Tienda Asistida USA → SV"}),
+      d("p",{className:"text-[13px] opacity-60 mt-2",children:"Productos de Amazon, Nike, Shein, Walmart. Tu bodega USA: 134 Walker Ct + TARSIS-XXXX. TODO INCLUIDO: IMPUESTOS, DESADUANAJE Y ENTREGA."})
+    ]}),
+    d("span",{className:"hidden md:block text-[11px] font-bold bg-black text-white px-3 py-1 rounded-full",children:"Sin inventario • Sin riesgo"})
+  ]}),
+  v("div",{className:"grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4",children:[
+    // PRODUCTO 1 - Nike
+    v("div",{className:"bg-white rounded-[16px] border border-black/10 p-3",children:[
+      d("div",{className:"h-[140px] bg-[#f5f3ef] rounded-[12px] flex items-center justify-center text-[36px]",children:"👟"}),
+      d("div",{className:"mt-3 text-[10px] font-bold opacity-50",children:"Nike • Amazon Best Seller"}),
+      d("div",{className:"font-black text-[13px] leading-tight mt-1",children:"Nike Air Max 270"}),
+      d("div",{className:"text-[11px] opacity-60 mt-1",children:"Precio USA $89 + caja TODO INCLUIDO"}),
+      v("div",{className:"flex items-center gap-2 mt-2",children:[
+        d("span",{className:"font-black text-[14px]",children:"$110"}),
+        d("span",{className:"text-[10px] bg-[#0f1e3a] text-white px-2 py-0.5 rounded-full",children:"Con envío SV"})
+      ]}),
+      d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20EXPRESS%20%F0%9F%93%A6%20Quiero%20el%20Nike%20Air%20Max%20270%20%2489%20USA%20-%20Mi%20c%C3%B3digo%20es%20TARSIS-XXXX%20Mi%20direcci%C3%B3n%20USA%20es%20134%20Walker%20Ct%2C%20Myrtle%20Beach%2C%20SC%2029577",target:"_blank",className:"mt-3 w-full h-9 bg-black text-white rounded-full text-[12px] font-bold flex items-center justify-center",children:"Agregar a mi casillero"})
+    ]}),
+    // PRODUCTO 2 - Sony
+    v("div",{className:"bg-white rounded-[16px] border border-black/10 p-3",children:[
+      d("div",{className:"h-[140px] bg-[#f5f3ef] rounded-[12px] flex items-center justify-center text-[36px]",children:"🎧"}),
+      d("div",{className:"mt-3 text-[10px] font-bold opacity-50",children:"Sony • Walmart"}),
+      d("div",{className:"font-black text-[13px] leading-tight mt-1",children:"Sony WH-1000XM5"}),
+      d("div",{className:"text-[11px] opacity-60 mt-1",children:"Precio USA $298 + caja TODO INCLUIDO"}),
+      v("div",{className:"flex items-center gap-2 mt-2",children:[
+        d("span",{className:"font-black text-[14px]",children:"$330"}),
+        d("span",{className:"text-[10px] bg-[#0f1e3a] text-white px-2 py-0.5 rounded-full",children:"Con envío SV"})
+      ]}),
+      d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20Quiero%20Sony%20WH-1000XM5%20Mi%20codigo%20TARSIS-XXXX%20Dir%20134%20Walker%20Ct",target:"_blank",className:"mt-3 w-full h-9 bg-black text-white rounded-full text-[12px] font-bold flex items-center justify-center",children:"Agregar a mi casillero"})
+    ]}),
+    // PRODUCTO 3 - iPhone Case
+    v("div",{className:"bg-white rounded-[16px] border border-black/10 p-3",children:[
+      d("div",{className:"h-[140px] bg-[#f5f3ef] rounded-[12px] flex items-center justify-center text-[36px]",children:"📱"}),
+      d("div",{className:"mt-3 text-[10px] font-bold opacity-50",children:"Apple • Amazon"}),
+      d("div",{className:"font-black text-[13px] leading-tight mt-1",children:"iPhone 15 Case MagSafe"}),
+      d("div",{className:"text-[11px] opacity-60 mt-1",children:"Precio USA $25"}),
+      v("div",{className:"flex items-center gap-2 mt-2",children:[
+        d("span",{className:"font-black text-[14px]",children:"$35"}),
+        d("span",{className:"text-[10px] bg-[#0f1e3a] text-white px-2 py-0.5 rounded-full",children:"Con envío SV"})
+      ]}),
+      d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20Quiero%20iPhone%20Case%20TARSIS-XXXX",target:"_blank",className:"mt-3 w-full h-9 bg-black text-white rounded-full text-[12px] font-bold flex items-center justify-center",children:"Agregar a mi casillero"})
+    ]}),
+    // PRODUCTO 4 - Shein
+    v("div",{className:"bg-white rounded-[16px] border border-black/10 p-3",children:[
+      d("div",{className:"h-[140px] bg-[#f5f3ef] rounded-[12px] flex items-center justify-center text-[36px]",children:"👕"}),
+      d("div",{className:"mt-3 text-[10px] font-bold opacity-50",children:"Shein USA"}),
+      d("div",{className:"font-black text-[13px] leading-tight mt-1",children:"Camiseta Oversize"}),
+      d("div",{className:"text-[11px] opacity-60 mt-1",children:"Precio USA $18"}),
+      v("div",{className:"flex items-center gap-2 mt-2",children:[
+        d("span",{className:"font-black text-[14px]",children:"$28"}),
+        d("span",{className:"text-[10px] bg-[#0f1e3a] text-white px-2 py-0.5 rounded-full",children:"Con envío SV"})
+      ]}),
+      d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20Quiero%20Camiseta%20Oversize%20Shein%20TARSIS-XXXX",target:"_blank",className:"mt-3 w-full h-9 bg-black text-white rounded-full text-[12px] font-bold flex items-center justify-center",children:"Agregar a mi casillero"})
+    ]}),
+    // PRODUCTO 5 - Perfume
+    v("div",{className:"bg-white rounded-[16px] border border-black/10 p-3",children:[
+      d("div",{className:"h-[140px] bg-[#f5f3ef] rounded-[12px] flex items-center justify-center text-[36px]",children:"👃"}),
+      d("div",{className:"mt-3 text-[10px] font-bold opacity-50",children:"Zara USA"}),
+      d("div",{className:"font-black text-[13px] leading-tight mt-1",children:"Perfume Hombre 100ml"}),
+      d("div",{className:"text-[11px] opacity-60 mt-1",children:"Precio USA $35"}),
+      v("div",{className:"flex items-center gap-2 mt-2",children:[
+        d("span",{className:"font-black text-[14px]",children:"$48"}),
+        d("span",{className:"text-[10px] bg-[#0f1e3a] text-white px-2 py-0.5 rounded-full",children:"Con envío SV"})
+      ]}),
+      d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20Quiero%20Perfume%20Zara%20TARSIS-XXXX",target:"_blank",className:"mt-3 w-full h-9 bg-black text-white rounded-full text-[12px] font-bold flex items-center justify-center",children:"Agregar a mi casillero"})
+    ]}),
+    // PRODUCTO 6 - Adidas
+    v("div",{className:"bg-white rounded-[16px] border border-black/10 p-3",children:[
+      d("div",{className:"h-[140px] bg-[#f5f3ef] rounded-[12px] flex items-center justify-center text-[36px]",children:"🏃"}),
+      d("div",{className:"mt-3 text-[10px] font-bold opacity-50",children:"Adidas • eBay"}),
+      d("div",{className:"font-black text-[13px] leading-tight mt-1",children:"Adidas Run Falcon"}),
+      d("div",{className:"text-[11px] opacity-60 mt-1",children:"Precio USA $75"}),
+      v("div",{className:"flex items-center gap-2 mt-2",children:[
+        d("span",{className:"font-black text-[14px]",children:"$95"}),
+        d("span",{className:"text-[10px] bg-[#0f1e3a] text-white px-2 py-0.5 rounded-full",children:"Con envío SV"})
+      ]}),
+      d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20Quiero%20Adidas%20Run%20TARSIS-XXXX",target:"_blank",className:"mt-3 w-full h-9 bg-black text-white rounded-full text-[12px] font-bold flex items-center justify-center",children:"Agregar a mi casillero"})
+    ]})
+  ]}),
+  d("div",{className:"mt-6 bg-[#0f1e3a] text-white rounded-[16px] p-4 flex flex-col md:flex-row items-center justify-between gap-3",children:[
+    v("div",{children:[
+      d("div",{className:"font-black text-[13px]",children:"¿No está lo que buscas?"}),
+      d("div",{className:"text-[11px] opacity-70",children:"Mándanos el link de Amazon, Shein, Nike, Walmart y lo traemos a 134 Walker Ct + tu código TARSIS-XXXX"})
+    ]}),
+    d("a",{href:"https://wa.me/18435829057?text=Hola%20TARSIS%20te%20mando%20link%20de%20Amazon%20para%20compra%20asistida",target:"_blank",className:"h-10 px-6 bg-white text-black rounded-full text-[12px] font-black flex items-center justify-center shrink-0",children:"Mandar link por WhatsApp"})
+  ]})
+]})
 
 Entrega hasta la puerta en El Salvador. Te avisamos por WhatsApp en cada paso.`;if(t.includes("crear casillero")||t.includes("codigo tarsis")||t.includes("tarsis-")||t.includes("casillero gratis")||t.includes("crear")&&t.includes("casillero")||t.includes("como me registro"))return`\uD83C\uDD94 ¡Crear tu casillero es GRATIS y al instante!
 
